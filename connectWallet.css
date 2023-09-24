@@ -5,24 +5,23 @@ html{
 }
 
 body{
+    text-align: center;
     margin-top: 15vh;
 }
 
-#button{
-    text-align: center;
-    color: white;
-}
-h1{
+body h1{
     text-align: center;
     color:white;
+    margin-bottom: 50px;
 }
 #para{
     text-align: center;
     color:white;
     margin-top: 40px;
-
 }
 button{
+    text-align: center;
+    color: white;
     background: rgb(144,56,170);
     background: linear-gradient(90deg, rgba(144,56,170,1) 20%, rgba(56,111,170,1) 90%);
     color: #ffffff;
@@ -32,8 +31,7 @@ button{
     border: 0; 
     padding: 10px 40px; 
     border-radius: 15px; 
-    background-color: transparent;
-}
+    }
 footer{
     position: absolute;
     width: 100%;
