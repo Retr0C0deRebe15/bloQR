@@ -8,3 +8,16 @@ nav ul li:hover{
     border-radius: 10px;
     color: white;
 }
+nav img{
+    background-color: white;
+    border-radius: 5% ;
+}
+nav a{
+    font-weight: bold;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+nav a span{
+    margin-left: 15%;
+}
