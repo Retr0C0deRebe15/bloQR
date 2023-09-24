@@ -19,7 +19,7 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 3.   **Sai Gaurav Bachu**  || **gb3hb@umsystem.edu**  || **GauravBachu**
 
 <br /><br />
-
+## We are using another repository at https://github.com/Retr0C0deRebe15/bloQR_Backend
 
 ## What is the name of your App?
 BloQR
