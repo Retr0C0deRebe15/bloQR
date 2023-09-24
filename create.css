@@ -4,6 +4,10 @@ html{
     font-family: 'Inter', sans-serif;
 }
 
+body{
+    margin-top: 15vh;
+}
+
 #button{
     text-align: center;
     color: white;
@@ -29,4 +33,9 @@ button{
     padding: 10px 40px; 
     border-radius: 15px; 
     background-color: transparent;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
