@@ -1,0 +1,23 @@
+nav{
+    min-height: max-content;
+}
+.logo{
+    display: inline-block;
+}
+.logo img{
+height: 40px;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.navRight{
+    display: inline-block;
+    position: relative;
+    right: 0;
+}
