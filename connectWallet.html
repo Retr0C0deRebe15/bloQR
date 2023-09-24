@@ -6,12 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BloQR</title>
     <link rel="stylesheet" href="connectWallet.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="./connectWallet.js"></script>
 </head>
 
 
 <body>
     <h1>To generate your BloQR code</h1>
-        <button>Connect to Wallet</button>
+        <button onclick="connectWallet()">Connect to Wallet</button>
+
+        <p id="log"></p>
+
+        <div id="generateDiv">
+            <!-- <h1>To generate your BloQR Code</h1> -->
+            <br />
+            <input type="text" placeholder="Enter your URL" id="urlInput"/>
+            <br />
+            <button name="generate" onclick="generate()">Generate</button>
+        </div>
+
     
 </body>
 

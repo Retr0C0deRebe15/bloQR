@@ -1,23 +1,10 @@
 nav{
-    min-height: max-content;
-}
-.logo{
-    display: inline-block;
-}
-.logo img{
-height: 40px;
-}
-nav ul{
-    list-style-type: none;
-    display: inline-block;
     
+    background: linear-gradient(90deg, rgba(144,56,170,0.9) 20%, rgba(56,111,170,0.9) 90%);
 }
-nav ul li{
-    display: inline-block;
-    margin-right: 25px;
-}
-.navRight{
-    display: inline-block;
-    position: relative;
-    right: 0;
+nav ul li:hover{
+    border: none;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
 }
