@@ -28,4 +28,17 @@ async function generate(){
     };
     console.log(obj);
 
+
+    fetch("https://blo-qr-backend.vercel.app/pinFileToIPFS", {
+  method: "POST",
+  body: JSON.stringify({
+    "userAddress":acc,
+        "qrData":urlInputVar
+  }),
+  headers: {
+    "Content-type": "application/json; charset=UTF-8"
+  }
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
 }
